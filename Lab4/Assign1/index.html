@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Feedback</title>
+
+</head>
+<body>
+	<script >
+		function submitf(){
+			let innerHTML, city,name,gender,Comments;
+			name=String(document.getElementsByName('name')[0].value);
+			city=String(document.getElementsByName('city')[0].value);
+			gender=String(document.getElementsByName('gender')[0].value);
+			comments=String(document.getElementsByName('comments')[0].value);
+			innerHTML=`<h3>Name: ${name}</h3><br><h3>City: ${city}</h3><br><h3>Gender: ${gender}</h3><br><h3>Comments: ${comments}</h3><br>`;
+			document.getElementById('print').innerHTML=innerHTML;
+		}
+	</script>
+
+	<form>
+		Name: <input type="text" name="name"><br>
+		City: <input type="text" name="city"><br>
+		Gender: <input type="text" name="gender"><br>
+		Comments:<br>
+		<textarea rows="10" cols=100 name="comments"></textarea>
+		<input type="button" onclick="submitf()" value="Foo">
+	</form>
+	<p id='print'></p>
+
+	
+</body>
+
+</html>

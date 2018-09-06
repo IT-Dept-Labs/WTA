@@ -14,18 +14,45 @@
 			comments=String(document.getElementsByName('comments')[0].value);
 			innerHTML=`<h3>Name: ${name}</h3><br><h3>City: ${city}</h3><br><h3>Gender: ${gender}</h3><br><h3>Comments: ${comments}</h3><br>`;
 			document.getElementById('print').innerHTML=innerHTML;
+			submitId();
+		}
+
+		function submitId(){
+			let innerHTML, city,name,gender,Comments;
+			name=String(document.getElementById('Name').value);
+			city=String(document.getElementById('City').value);
+			gender=String(document.getElementById('Gender').value);
+			comments=String(document.getElementById('Comments').value);
+			innerHTML=`<h3>Name: ${name}</h3><br><h3>City: ${city}</h3><br><h3>Gender: ${gender}</h3><br><h3>Comments: ${comments}</h3><br>`;
+			document.getElementById('print1').innerHTML=innerHTML;
+			submitDom();
+		}
+
+		function submitDom(){
+			let innerHTML, city,name,gender,Comments;
+			name=String(document.getElementsByTagName('input')[0].value);
+			city=String(document.getElementsByTagName('input')[1].value);
+			gender=String(document.getElementsByTagName('input')[2].value);
+			comments=String(document.getElementsByTagName('input')[0].value);
+			innerHTML=String('Name:'+ name+' City: '+city+' Gender:'+gender+' Comments: '+Comments);
+			document.getElementById('print2').innerHTML=innerHTML;
 		}
 	</script>
 
 	<form>
-		Name: <input type="text" name="name"><br>
-		City: <input type="text" name="city"><br>
-		Gender: <input type="text" name="gender"><br>
+		Name: <input type="text" name="name" id='Name'><br><br>
+		City: <input type="text" name="city" id='City'><br><br>
+		Gender: <input type="text" name="gender" id='Gender'><br><br>
 		Comments:<br>
-		<textarea rows="10" cols=100 name="comments"></textarea>
+		<textarea rows="10" cols=100 name="comments" id='Comments'></textarea>
 		<input type="button" onclick="submitf()" value="Foo">
 	</form>
+	By Name
 	<p id='print'></p>
+	By ID
+	<p id='print1'></p>
+	By DOM
+	<p id='print2'></p>
 
 	
 </body>

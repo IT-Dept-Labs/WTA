@@ -1,0 +1,46 @@
+book{
+	border: 1px solid black;
+}
+name{
+	color:#2492AC;
+	font-weight: bold;
+}
+venue{
+	color: #2492AC;
+	font-weight: bold;
+	margin-left: 150px;
+}
+addres{
+	color: #2492AC;
+	font-weight: bold;
+}
+date{
+	color: #2492AC;
+	font-weight: bold;
+	display: block;
+	white-space: pre;
+}
+genre{
+	color: #7A0C0A;
+	font-weight: bold;
+	display: block;
+	white-space: pre;
+}
+performer{
+	color: #D95B01;
+	font-weight: bold;
+	display: block;
+	white-space: pre;
+}
+ticket-price{
+	color: #D95B01;
+	font-weight: bold;
+}
+ticket-type{
+	color: #D95B01;
+	font-weight: bold;
+}
+seller{
+	display: block;
+	font-weight: bold;
+}

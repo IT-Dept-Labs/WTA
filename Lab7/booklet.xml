@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- <?xml-stylesheet type="text/xsl" href="template.xsl"?> -->
+<?xml-stylesheet type="text/xsl" href="template1.xsl"?>
+<!-- <?xml-stylesheet type="text/css" href="style.css"?> -->
+<book>
+		<ad>
+				
+				<name>ABC</name>
+				<venue>
+					<venue-name>xyz ground,</venue-name>
+					<addres>Mangalore</addres>
+					<contact>+91989898454</contact>
+					<date>10 April, 2018  6:00 pm</date>
+				</venue>
+				<genre>Pop</genre>
+				<performers>
+					<performer>
+						<fname>John</fname>
+						<lname>Joe</lname>
+						<role>Drums</role>
+					</performer>
+					<performer>
+						<fname>Harry</fname>
+						<lname>Joe</lname>
+						<role>Guitar</role>
+					</performer>
+					<performer>
+						<fname>Garry</fname>
+						<lname>Smith</lname>
+						<role>Vocal</role>
+					</performer>
+					<performer>
+						<fname>Mike</fname>
+						<lname>Johnson</lname>
+						<role>Keyboard</role>
+					</performer>
+				</performers>
+				<ticket>
+					<ticket-price>Rs. 90/-</ticket-price>
+					<ticket-type>Gold</ticket-type>
+				</ticket>
+				<discount>15</discount>
+				<seller>
+					<seller-name>AAA Seller</seller-name>
+					<seller-phone>+91785984654</seller-phone>
+					<seller-email>eklfelkf@fnef.com</seller-email>
+				</seller>
+			 
+		</ad>
+		<ad>
+			
+				<name>XYZ</name>
+				<venue>
+					<venue-name>abc ground,</venue-name>
+					<addres>Mangalore</addres>
+					<contact>+9199898454</contact>
+				</venue>
+				<date>15 April, 2018  6:00 pm</date>
+				<genre>Classical</genre>
+				<performers>
+					<performer>
+						<fname>Harry</fname>
+						<lname>Joe</lname>
+						<role>Drums</role>
+					</performer>
+					<performer>
+						<fname>Mike</fname>
+						<lname>Joe</lname>
+						<role>Guitar</role>
+					</performer>
+					<performer>
+						<fname>John</fname>
+						<lname>Smith</lname>
+						<role>Vocal</role>
+					</performer>
+					<performer>
+						<fname>Garry</fname>
+						<lname>Johnson</lname>
+						<role>Keyboard</role>
+					</performer>
+				</performers>
+				<ticket>
+					<ticket-price>Rs. 500/-</ticket-price>
+					<ticket-type>Gold</ticket-type>
+				</ticket>
+				<seller>
+					<seller-name>AAA Seller</seller-name>
+					<seller-phone>+91785984654</seller-phone>
+					<seller-email>eklfelkf@fnef.com</seller-email>
+				</seller>
+			
+		</ad>
+		<ad>
+			<name>XZZ</name>
+				<venue>
+					<venue-name>abc ground,</venue-name>
+					<addres>geft Av</addres>
+					<contact>+9199898454</contact>
+				</venue>
+				<date>11 November, 2018  6:00 pm</date>
+				<genre>Instrumental</genre>
+				<performers>
+					<performer>
+						<fname>Harry</fname>
+						<lname>Smith</lname>
+						<role>Drums</role>
+					</performer>
+					<performer>
+						<fname>Mike</fname>
+						<lname>Joe</lname>
+						<role>Guitar</role>
+					</performer>
+					<performer>
+						<fname>John</fname>
+						<lname>Smith</lname>
+						<role>Vocal</role>
+					</performer>
+					<performer>
+						<fname>Garry</fname>
+						<lname>Joe</lname>
+						<role>Keyboard</role>
+					</performer>
+				</performers>
+				<ticket>
+					<ticket-price>Rs. 300/-</ticket-price>
+					<ticket-type>Gold</ticket-type>
+				</ticket>
+				<seller>
+					<seller-name>AAA Seller</seller-name>
+					<seller-phone>+91785984654</seller-phone>
+					<seller-email>eklfelkf@fnef.com</seller-email>
+				</seller>
+			
+		</ad>
+</book>

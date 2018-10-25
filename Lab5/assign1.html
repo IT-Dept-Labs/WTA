@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Validate</title>
+</head>
+<body>
+<p> 
+	1st Number: <input type="number" name="n1"><br>
+	2nd Number: <input type="number" name="n2"><br>
+	<button onclick="mul()">Multiply</button>
+	<button onclick="div()">Divide</button><br>
+	<div id='res'>The result is : </div>
+</p>
+</body>
+<script type="text/javascript">
+	let n1,n2;
+	
+	function mul(){
+		n1=document.getElementsByName('n1')[0].value;
+	n2=document.getElementsByName('n2')[0].value;
+
+		document.getElementById('res').innerHTML='The Result is '+parseInt(n1,10)*parseInt(n2,10);
+	}
+
+	function div(){
+		n1=document.getElementsByName('n1')[0].value;
+	n2=document.getElementsByName('n2')[0].value;
+
+	document.getElementById('res').innerHTML='The Result is '+parseInt(n1)/parseInt(n2);	
+	}
+
+</script>
+</html>
